@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>connexionAdmin</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+      <ion-card-title>Card Title</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-item>
+        <ion-label position="floating">Nom d'utilisateur</ion-label>
+        <ion-input type="text" clearInput [(ngModel)]="usernameAdmin"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Adresse email</ion-label>
+        <ion-input type="email" clearInput [(ngModel)]="emailAdmin"></ion-input>
+      </ion-item>
+
+      <ion-item>
+        <ion-label position="floating">Mot de passe </ion-label>
+        <ion-input type="password" clearInput [(ngModel)]="mdpAdmin"></ion-input>
+      </ion-item>
+    </ion-card-content>
+    <ion-item>
+      <ion-button expand="block" fill="outline" (click)="goStats()">Accéder à toutes les infos</ion-button>
+    </ion-item>
+    <ion-item>
+      <ion-button expand="block" fill="outline" [routerLink]="['/accueil']">Retour</ion-button>
+    </ion-item>
+  </ion-card>
+</ion-content>

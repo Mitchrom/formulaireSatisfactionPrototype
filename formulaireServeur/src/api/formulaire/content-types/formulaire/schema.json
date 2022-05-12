@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "formulaires",
+  "info": {
+    "singularName": "formulaire",
+    "pluralName": "formulaires",
+    "displayName": "formulaire",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "service": {
+      "type": "string",
+      "required": true
+    },
+    "commentaire": {
+      "type": "text",
+      "required": true
+    },
+    "ambianceTravail": {
+      "type": "integer",
+      "default": 1,
+      "required": true,
+      "max": 5,
+      "min": 1
+    },
+    "userId": {
+      "type": "uid",
+      "required": false
+    }
+  }
+}

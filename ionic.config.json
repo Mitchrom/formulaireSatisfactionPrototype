@@ -1,0 +1,7 @@
+{
+  "name": "formulaireSatisfactionPrototype",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

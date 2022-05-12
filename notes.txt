@@ -1,0 +1,45 @@
+*rendrre unique chaque adresse mail => fait
+*créer bdd du formulaire => à faire (attente de la validation de Mr Salmon avant d'intégrer le vrai formulaire)
+    **commencer avec un proto-formulaire => réussi
+*lier bdd à chaque email => fait
+    **lier proto-formulaire avec les mails créés pour l'exemple
+        ***trouver une solution
+
+*stoker les données avec ionic/storage => à faire
+    **tests sur la page confirmation
+
+*empêcher les utilisateurs de modifier leur formulaire une fois qu'il est validé => à faire
+    *le fait d'avoir rendu unique les mails peut faire l'affaire, mais à revérifier ultérieurement
+
+(*mail de confirmation => à faire)
+
+*créer page administrateur permettant de consulter les résultats =>
+    **créer un nouveau rôle
+    **les mails en questions seront rentrés dans la bdd au préalable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
